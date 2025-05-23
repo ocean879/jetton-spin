@@ -26,7 +26,15 @@ File ini harus berisi token akun, satu per baris. Contoh:
    ```bash
    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+   
+4. Setting config.json
+   ```bash
+   {
+   "roulette": true, or false
+   "mission": true, or false
+   "upgrade": true or false
+   }
 
-4. Jalankan skrip:
+5. Jalankan skrip:
    ```bash
    python main.py
